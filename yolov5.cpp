@@ -176,7 +176,7 @@ int main()
     double t = net.getPerfProfile(layersTimes) / freq;
     string label = format("Inference time : %.2f ms", t);
     putText(img, label, Point(20, 40), FONT_FACE, FONT_SCALE, RED);
-    cout << "Labels: " << label << endl;
+    cout << label << endl;
 
     // imshow("Output", img);
     // waitKey(0);
