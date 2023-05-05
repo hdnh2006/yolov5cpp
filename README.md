@@ -24,7 +24,7 @@ python yolov5.py
 ```C++ Linux
 mkdir build
 cd build
-cp ../sample.jpg
+cp ../sample.jpg .
 cp -r ../models .
 cmake ..
 cmake --build .
